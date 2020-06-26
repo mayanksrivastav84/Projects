@@ -18,10 +18,6 @@ const SlackStrategy = require("passport-slack").Strategy
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const photo     = require('./models/photo')
 
-
-
-
-
 mongoose
   .connect('mongodb+srv://mayank:residency18@cluster0-pu5tf.azure.mongodb.net/photobook', {useNewUrlParser: true})
   .then(x => {
